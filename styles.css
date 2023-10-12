@@ -14,6 +14,11 @@ body{
     width: 100%;
 }
 
+#top-search{
+    width: 30rem;
+    height: 30px;
+}
+
 .Menu_list{
     display: flex;
     list-style: none;
@@ -25,7 +30,7 @@ body{
 .catgories_container{
     display: flex;
     background-color: #fff;
-   
+    align-items: center; 
 }
 
 .banner_section{
@@ -33,10 +38,36 @@ body{
     background-color: green;
     flex-direction: column;
     align-items: center;
+    gap: 90px;
+}
+
+.banner_section__header{
+     background-color: black;
+     color: white;
+}
+
+#banner_search{
+    width: 40rem;
+    height: 35px;
+}
+
+.banner_search_subtext{
+    display: flex;
+    align-items: center;
 }
 
 .banner-section__footer{
     background-color: wheat;
     width: 100%;
     display: flex;
+}
+
+.gallary_section{
+    background-color: blue;
+    height: 500px;
+}
+
+.divider{
+  border-left: 1px solid #7676766b;
+  height: 30px;
 }
