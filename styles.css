@@ -1,0 +1,42 @@
+body{
+     margin: 0px;
+}
+
+.header{
+    background-color: wheat;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+.navbar{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Menu_list{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 14px;
+    color: #767676;
+}
+
+.catgories_container{
+    display: flex;
+    background-color: #fff;
+   
+}
+
+.banner_section{
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-section__footer{
+    background-color: wheat;
+    width: 100%;
+    display: flex;
+}
