@@ -223,4 +223,9 @@ body{
     .gallary_section{
         flex-direction: column;
     }
+
+    .Search_form_banner{
+       width: 30rem;
+    }
+
 }
