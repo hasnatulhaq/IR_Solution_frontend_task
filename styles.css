@@ -44,6 +44,7 @@ body{
 .banner_section__header{
      background-color: black;
      color: white;
+     margin-top: 50px;
 }
 
 #banner_search{
@@ -60,6 +61,16 @@ body{
     background-color: wheat;
     width: 100%;
     display: flex;
+    padding: 0rem 0rem 0rem 0rem;
+    height: 2rem;
+}
+
+.banner-section__footer > :first-child{
+    width: 40%;
+}
+
+.banner-section__footer > :nth-child(2){
+    width: 60%;
 }
 
 .gallary_section{
