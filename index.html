@@ -11,7 +11,11 @@
     <header class="header">
         <nav class="navbar">
             <img src = "Unsplash_Symbol.svg" alt="Unsplash logo"/>
+            <div class="search_form_top">
+            <img src="Search_icon.svg" alt="search_icon"/>
             <input type="text" placeholder="Search high-resoultions images" id="top-search"/>
+            <img src="photo_lens.svg" alt="photo_lens" />
+            </div>
             <div class="end_divider">
                 <ul class="Menu_list">
                     <li>Explore</li>
@@ -23,7 +27,7 @@
             <div>
                 <ul class="Menu_list">
                     <li>Login</li>
-                    <li><button>Submit a photo</button></li>
+                    <li><button class="submit_button">Submit a photo</button></li>
                     <li><img src = "humberger_menu.svg" alt="Unsplash logo"/></li>
                 </ul>
             </div>
@@ -59,15 +63,18 @@
     <!--catogries end-->
     <!--Banner Section start-->
     <div class="banner_section">
-        <img src="banner_image.jpg" alt="banner image"/>
+        <img src="https://source.unsplash.com/78A265wPiO4" alt="banner image" id="banner_section_image"/>
         <div class="banner_section__header">
         <h1>Unsplash</h1>
-        <p>The internet’s source for visuals.<br> Powered by creators everywhere.</p>
+        <p class="banner_section__header__tagline">The internet’s source for visuals.<br> Powered by creators everywhere.</p>
+        <div class="Search_form_banner"> 
+        <img src="Search_icon.svg" alt="search_icon"/>
         <input id="banner_search" type="text" placeholder="Search high-resoultions images"/>
+        <img src="photo_lens.svg" alt="photo_lens" />
+        </div>
         <div class="banner_search_subtext">
             <span>Trending:</span>
             <ul class="trending_list">
-                <li></li>
                 <li>flower,</li>
                 <li>wallpapers,</li>
                 <li>background,</li>
@@ -77,7 +84,7 @@
         </div>
         </div>
         <div class="banner-section__footer">
-             <div class="banner-section__footer_photo_cre">Photo by hasnat</div>
+             <div class="banner-section__footer_photo_cre">Photo by Aperture vintage</div>
              <div>Read more about the Unsplash License</div>
         </div>
     </div>

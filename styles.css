@@ -1,3 +1,8 @@
+:root {
+    --gray-divider: #7676766b;
+    --gray-text : #767676;
+  }
+
 body{
      margin: 0px;
 }
@@ -15,9 +20,24 @@ body{
     gap: 10px;
 }
 
+.search_form_top{
+    background-color: #eee;
+    /* width: 30rem; */
+    height: 40px;
+    display: flex;
+    border-radius: 24px;
+    align-items: center;
+    padding: 0px 10px;
+    width: 50%;
+    justify-content: space-between;
+}
+
 #top-search{
     width: 30rem;
     height: 30px;
+    outline: none;
+    background: #eee;
+    border: none;
 }
 
 .Menu_list{
@@ -25,14 +45,25 @@ body{
     list-style: none;
     gap: 1rem;
     font-size: 14px;
-    color: #767676;
+    color: var(--gray-text);
+    align-items: center;
 }
 
 .end_divider{
     display: flex;
     align-items: center;
     gap: 2rem;
-    
+}
+
+.submit_button{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 11px;
+    border: 1px solid #d1d1d1;
+    color: var(--gray-text);
 }
 
 .catgories_container{
@@ -46,23 +77,45 @@ body{
     position: relative;
     flex-direction: column;
     align-items: center;
-    /* gap: 90px; */
+    justify-content: center;
 }
 
-.banner_section img{
+#banner_section_image{
     width: 100%;
-    height: 500px;
+    height: 600px;
+    object-fit: cover;
 }
 
 .banner_section__header{
      color: white;
-     margin-top: 50px;
      position: absolute;
+}
+
+.banner_section__header h1{
+    font-size: 50px;
+}
+
+.banner_section__header__tagline{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.Search_form_banner{
+    background-color: white;
+    width: 46rem;
+    height: 50px;
+    display: flex;
+    padding: 0px 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #banner_search{
     width: 40rem;
     height: 35px;
+    outline: none;
+    border: none;
 }
 
 .banner_search_subtext{
@@ -77,10 +130,10 @@ body{
     gap: 5px;
     font-size: 14px;
     color: white;
+    margin-left: -40px;
 }
 
 .banner-section__footer{
-    /* background-color: wheat; */
     width: 100%;
     display: flex;
     padding: 0rem 0rem 0rem 0rem;
@@ -104,15 +157,16 @@ body{
     width: 90%;
     margin: auto;
     padding: 40px 0;
+
+    display: flex;
+    justify-content: center;
 }
 
 .gallary_section{
     display: flex;
     gap:15px;
-    /* background-color: blue;
-    height: 500px;
-    flex-direction: row;
-    justify-content: center; */
+    width: 80%;
+    justify-content: center;
 }
 
 .gallery_column{
@@ -128,6 +182,6 @@ body{
 }
 
 .divider{
-  border-left: 1px solid #7676766b;
+  border-left: 1px solid var(--gray-divider);
   height: 30px;
 }
