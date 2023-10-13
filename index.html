@@ -11,16 +11,15 @@
     <header class="header">
         <nav class="navbar">
             <img src = "Unsplash_Symbol.svg" alt="Unsplash logo"/>
-            <div></div>
             <input type="text" placeholder="Search high-resoultions images" id="top-search"/>
-            <div>
+            <div class="end_divider">
                 <ul class="Menu_list">
                     <li>Explore</li>
                     <li>Advertise</li>
                     <li>unsplash+</li>
                 </ul>
+                <span class="divider"></span>
             </div>
-            <span class="divider"></span>
             <div>
                 <ul class="Menu_list">
                     <li>Login</li>
@@ -33,11 +32,13 @@
     <!--header end-->
     <!--catogries menu-->
     <div class="catgories_container">
+           <div class="end_divider">
             <ul class="Menu_list">
                 <li>Editorial</li>
                 <li>unsplash</li>
             </ul>
             <span class="divider"></span>
+           </div>
             <ul class="Menu_list">
                 <li>Featured</li>
                 <li>wallpapers</li>
@@ -58,13 +59,15 @@
     <!--catogries end-->
     <!--Banner Section start-->
     <div class="banner_section">
+        <img src="banner_image.jpg" alt="banner image"/>
         <div class="banner_section__header">
         <h1>Unsplash</h1>
         <p>The internet’s source for visuals.<br> Powered by creators everywhere.</p>
         <input id="banner_search" type="text" placeholder="Search high-resoultions images"/>
         <div class="banner_search_subtext">
             <span>Trending:</span>
-            <ul class="Menu_list">
+            <ul class="trending_list">
+                <li></li>
                 <li>flower,</li>
                 <li>wallpapers,</li>
                 <li>background,</li>
@@ -80,12 +83,43 @@
     </div>
     <!--Banner Section end-->
     <!--Gallery Section start-->
-    <main></main>
-    <div class="gallary_section">
-        <div>image 1</div>
-        <div>image 2</div>
-        <div>image 3</div>
-    </div>
+    <main class="image_container">
+        <div class="gallary_section">
+            <div class="gallery_column">
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/BHlpqQMWDSc" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/sBPnD3jzQ7g" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/zsJZhl-dZMU" alt="image"/>
+                </div>
+            </div>
+            <div class="gallery_column">
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/FP9bp6gnh8I" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/BxJ0IwFP3O0" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/wj0PxO5nY5Q" alt="image"/>
+                </div>
+            </div>
+            <div class="gallery_column">
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/WiG43MYuLXg" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/Hzch5sPkPkE" alt="image"/>
+                </div>
+                <div class="gallery_image">
+                    <img src="https://source.unsplash.com/5zrjMMxwCvc" alt="image"/>
+                </div>
+            </div>
+        </div>
+    </main>
     <!--Gallery section end-->
 </body>
 </html>
