@@ -196,7 +196,7 @@ body{
 
 .gallary_section{
     display: flex;
-    gap:15px;
+    gap: 15px;
     width: 80%;
     justify-content: center;
 }
@@ -239,16 +239,6 @@ body{
 }
 
 /*Media queries*/
-
-@media only screen and (max-width: 600px) {
-    /* .searh_form_banner{
-        width: 2rem;
-    } */
-    /* .search_form_top{
-        width: 10rem;
-    } */
-
-  }
 
 @media(max-width: 768px){
     .gallary_section{
