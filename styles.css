@@ -241,9 +241,9 @@ body{
 /*Media queries*/
 
 @media only screen and (max-width: 600px) {
-    .searh_form_banner{
+    /* .searh_form_banner{
         width: 2rem;
-    }
+    } */
     /* .search_form_top{
         width: 10rem;
     } */
@@ -265,7 +265,7 @@ body{
 
     .search_form_top{
         margin-top: 10px;
-        width: 15rem;
+        width: 20rem;
         margin-right: 30px;
     }
 
