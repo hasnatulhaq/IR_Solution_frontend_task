@@ -18,7 +18,6 @@ body{
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    gap: 10px;
     justify-content: space-between;
 }
 
@@ -233,15 +232,22 @@ body{
 
 /*Gallery section styling end*/
 
+
 .divider{
   border-left: 1px solid var(--gray-divider);
   height: 30px;
 }
 
+/*Media queries*/
+
 @media only screen and (max-width: 600px) {
     .searh_form_banner{
-        width: 4rem;
+        width: 2rem;
     }
+    /* .search_form_top{
+        width: 10rem;
+    } */
+
   }
 
 @media(max-width: 768px){
@@ -250,11 +256,17 @@ body{
     }
 
     .Search_form_banner{
-       width: 25rem;
+       width: 20rem;
     }
 
     .banner-section__footer{
         font-size: 5px;
+    }
+
+    .search_form_top{
+        margin-top: 10px;
+        width: 15rem;
+        margin-right: 30px;
     }
 
 }
