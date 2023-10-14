@@ -19,6 +19,7 @@ body{
     align-items: center;
     width: 100%;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .search_form_top{
@@ -220,6 +221,12 @@ body{
   height: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+    .searh_form_banner{
+        width: 20rem;
+    }
+  }
+
 @media(max-width: 768px){
     .gallary_section{
         flex-direction: column;
@@ -229,4 +236,10 @@ body{
        width: 25rem;
     }
 
+    .banner-section__footer{
+        font-size: 5px;
+    }
+
 }
+
+
